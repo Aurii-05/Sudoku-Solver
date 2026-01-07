@@ -89,7 +89,7 @@ def solve_sudoku(grid_key):
 
 if __name__ == '__main__':
     
-    grid_str = input("Enter the Sudoku grid row by row, with no seperating spaces, as in Row 1 Col 0-9 then Row 2 Col 0-9 etc:\n")
+    grid_str = input("Enter the Sudoku grid row by row, with no seperating spaces, as in Row 1 Col 1-9 then Row 2 Col 1-9, a blank space should be 0:\n")
     solved_grid_key = solve_sudoku(grid_str)
     
     print("Original Sudoku:")
